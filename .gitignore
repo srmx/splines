@@ -1,1 +1,3 @@
 run_baglebone_black.sh
+obj/*.o
+test

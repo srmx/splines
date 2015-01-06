@@ -1,7 +1,7 @@
 SRCDIR = ./src
 OBJDIR = ./obj
 BINDIR = ./bin
-EXEC = linalg
+EXEC = test
 
 SRC = $(wildcard $(SRCDIR)/*.cpp)
 OBJ = $(addprefix $(OBJDIR)/,$(notdir $(SRC:.cpp=.o)))

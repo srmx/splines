@@ -84,10 +84,10 @@ int main()
 
 	// return 0;
 
-	auto f = [](double x) { return sin(x + 1.2345); };
-	auto df = [](double x) { return cos(x + 1.2345); };
-	auto ddf = [](double x) { return -sin(x + 1.2345); };
-	auto dddf = [](double x) { return -cos(x + 1.2345); };
+	auto f = [](double x) { return sin(x); };
+	auto df = [](double x) { return cos(x); };
+	auto ddf = [](double x) { return -sin(x); };
+	auto dddf = [](double x) { return -cos(x); };
 
 	int t;
 	int max_err_idx;
